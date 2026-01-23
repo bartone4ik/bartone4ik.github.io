@@ -10,7 +10,7 @@ body {
 
 /* Шапка сайту */
 header {
-  background: #333;
+  background: #0066cc;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -60,7 +60,7 @@ section h2 {
 #projects a {
   display: inline-block;
   margin-top: 10px;
-  color: #0066cc;
+  color: #6d1397;
   text-decoration: none;
 }
 
@@ -71,4 +71,38 @@ section h2 {
 /* Контакти */
 #contact p {
   margin: 5px 0;
+}
+/* Загальні стилі для секцій */
+section {
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  color: #fff; /* білий текст для контрасту */
+}
+
+/* Кольори для кожного розділу */
+#about {
+  background-color: #4CAF50; /* зелений */
+}
+
+#projects {
+  background-color: #2196F3; /* синій */
+}
+
+#contact {
+  background-color: #FF5722; /* помаранчевий */
+}
+#projects div {
+  background: #2196F3; /* темний фон */
+  color: #fff;      /* білий текст */
+}
+/* Прибрати окремі картки для проектів */
+#projects div {
+  background: none;   /* прибирає фон */
+  box-shadow: none;   /* прибирає тінь */
+  padding: 0;         /* прибирає відступи */
+  margin: 0;          /* прибирає відступи */
+  border-radius: 0;   /* прибирає закруглення */
+  color: inherit;     /* текст успадковує колір секції */
 }
